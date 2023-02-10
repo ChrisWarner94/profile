@@ -1,0 +1,77 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+html {
+  background-color: black;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.container{
+margin: auto;
+width: 100%;
+padding: 10px;
+text-align: center;
+}
+.text-centre{
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+}
+.card {
+  padding: 2px;
+  border-radius: 5%;
+}
+
+h1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+color: white;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+color: white;
+}
+
+p {
+  font-size: 15px;
+  color: white;
+}
+
+a:hover {
+ color: rgb(255, 255, 255);
+}
+
+ul{
+  padding-top: 50px;
+  padding-left: 0px;
+}
+
+img {
+  border-radius: 5px;
+}
